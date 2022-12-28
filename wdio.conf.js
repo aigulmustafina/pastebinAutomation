@@ -27,6 +27,16 @@ exports.config = {
     exclude: [
         // 'path/to/excluded/files'
     ],
+    suites: {
+        iCanWin: [
+            "./test/specs/**/test.icanWin.js"
+        ],
+
+        bringItOn: [
+            "./test/specs/**/test.bringItOn.js",
+        ],
+
+    },
     //
     // ============
     // Capabilities
